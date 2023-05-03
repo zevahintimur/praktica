@@ -30,5 +30,5 @@ func main() {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", handlerResponse)
 	infoLogger.Println("Starting web server")
-	http.ListenAndServe(":8000", mux)
+	http.ListenAndServe(":8080", mux)
 }
