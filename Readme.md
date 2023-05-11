@@ -4,4 +4,4 @@
 $ go build app.go
 ```
 # Deploy in Docker
-$docker run -d -p 5000:8080 -d test1
+$docker run -d -p 5000:8080 -d frosto01/test
